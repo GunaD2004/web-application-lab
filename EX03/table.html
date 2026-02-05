@@ -2,14 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bullets And Lists</title>
 </head>
 <body>
-    <table>
-        <tr>
-            <td></td>
-        </tr>
+    <table border="3px">
+        <thead>
+            <tr>
+                <td>Sno</td>
+                <td>Course</td>
+                <td>Departments</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Undergraduate</td>
+                <td>
+                    <ol>
+                        <li>BSc Computer Science</li>
+                        <li>BSc Microbiology</li>
+                        <li>BSc Maths</li>
+                        <li>BSc Physics</li>
+                        <li>BSc Chemistry</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Postgraduate</td>
+                <td>
+                    <ul type="square">
+                        <li>MSc Computer Science</li>
+                        <li>MSc Microbiology</li>
+                        <li>MSc Maths</li>
+                        <li>MSc Physics</li>
+                        <li>MSc Chemistry</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Doctrate of Philosophy</td>
+                <td>
+                    <dl>
+                        <dt>Physics</dt>
+                        <dd> this is a Doctrate Course</dd>
+                    </dl>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><p>&copy; 2026 Arignar Anna Government Arts College. All Rights Reserved.</p></td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
