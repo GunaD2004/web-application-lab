@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        tr{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Student Registration Form</legend>
+    <form action="./message.html">
+      <table>
+          <tr>
+            <td><label for="">Name :</label></td>
+            <td> <input type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="">Year of study :</label></td>
+            <td><select name="" id="">
+            <optgroup>
+                <option>I Bsc</option>
+                <option>II Bsc</option>
+                <option>III Bsc</option>
+                <option>I Msc</option>
+                <option>II Msc</option>
+            </optgroup>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>  <label for="">College Name :</label></td>
+            <td><input type="text" placeholder="ex : Abc college"></td>
+        </tr>
+        <tr>
+            <td><label for="">Email :</label></td>
+            <td><input type="email" placeholder="Enter Your Email"></td>
+        </tr>
+        <tr>
+            <td><label for="">Phone Number :</label></td>
+            <td><input type="tel" placeholder="Enter Your Number Here"></td>
+        </tr>
+        <tr>
+            <td>
+        <label for="">Gender</label></td>
+            <td><input type="radio" name="Gender">male <br>
+        <input type="radio">Female <br>
+        <input type="radio">Third</td>
+    </tr>
+    <tr>
+        <td><label for="">Select The Event :</label></td>
+        <td> <select name="" id="" required>
+            <option value="Dance">Dance</option>
+            <option value="quiz">quiz</option>
+            <option value="Paper Presentation">Paper Presentation</option>
+        </select></td>
+    </tr>
+        <tr>
+            <td colspan="2"><center><button type="submit">Submit Here</button></center></td>
+        </tr>
+      </table>           
+    </form>
+    </fieldset>
+</body>
+</html>
